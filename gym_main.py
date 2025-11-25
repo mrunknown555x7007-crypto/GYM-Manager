@@ -5,6 +5,8 @@ from datetime import datetime
 from enum import Enum
 from typing import Dict, List, Optional, Any
 
+
+
 # --- CONSTANTS & CONFIGURATION ---
 DB_FILE = "gym_data.json"
 
@@ -172,9 +174,9 @@ class CLI:
 
     def menu(self):
         while True:
-            print("\n=================================")
-            print("   ELITE GYM MANAGEMENT SYSTEM   ")
-            print("=================================")
+            print("\n             =================================")
+            print("                  ELITE GYM MANAGEMENT SYSTEM   ")
+            print("               =================================")
             print("1. Register New Member")
             print("2. View All Members")
             print("3. Member Check-In (Attendance)")
@@ -278,6 +280,12 @@ class CLI:
         for tier, count in stats['tiers'].items():
             print(f" - {tier}: {count}")
 
+
+
+
+
+
 if __name__ == "__main__":
     app = CLI()
+
     app.menu()
