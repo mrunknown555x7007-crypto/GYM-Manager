@@ -14,7 +14,7 @@ You can copy this output to use in your GitHub README.md file
 6. Gym Analytics
 7. Exit
 
-Enter your choice (1-5): 1
+Enter your choice (1-7): 1
           --- Add New Member ---
 Enter Member ID (unique): 101
 Enter Name: Alex Gymrat
@@ -30,7 +30,7 @@ Success! Member Alex Gymrat added with BMI 24.49.
 ============================
 1. Add Member
 ... [Menu Repeats] ...
-Enter your choice (1-5): 3
+Enter your choice (1-7): 3
 
            --- Search Member ---
 Enter Member ID to search: 101
@@ -40,4 +40,5 @@ Name: Alex Gymrat
 Age: 25
 Contact: 555-0199
 BMI Score: 24.49
+
 Status: Normal
